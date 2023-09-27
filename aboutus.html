@@ -12,87 +12,92 @@
     <title>About Us</title>
 </head>
 <body>
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Thông báo</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <h1>Welcome to OIK HighSchool</h1>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Thông báo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1>Chào Mừng Đến Với Trường THPT ÔNG ÍCH KHIÊM</h1>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          <button type="button" class="btn btn-primary">Lưu Thay đổi</button>
         </div>
       </div>
-      <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-      
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" height="50" width="50">OIK HighSchool</a>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" height="40" width="40">OIK HighSchool</a>
+    <div class="container">
+
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Trang Chủ</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Thông Tin Trường</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span> Các Mục Khác </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Liên Hệ</a></li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0 fa fa-search " type="submit"></button> 
+            </form>   
+        </div>   
+        
+    </div>
+    <div class="navbar">
+      <span class="navbar-text">
+        <a type="button" data-toggle="modal" data-target="#loginModal">
+            <span class="fa fa-sign-in"></span> Đăng Nhập
+        </a>
+      </span>
+    </div>
     
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-                </ul>
-    
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-light my-2 my-sm-0 fa fa-search " type="submit"></button> 
-                </form>   
-            </div>   
-            
+  </nav>
+
+        <div class="border">
+            <div class="col-md-12" >
+                <marquee behavior="scroll" direction="left" style="color: rgb(13, 117, 98);" >
+                    CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI CỔNG THÔNG TIN ĐIỆN TỬ TRƯỜNG THPT ÔNG ÍCH KHIÊM. - ĐC: ĐƯỜNG
+                    QUẢNG XƯƠNG, XÃ HOÀ HOÀ PHONG, HUYỆN HOÀ VANG, TP ĐÀ NẴNG - ĐT: 023314501508
+                </marquee>
+            </div>
         </div>
-        
-        <div class="navbar">
-            <span class="navbar-text">
-              <a type="button" data-toggle="modal" data-target="#loginModal">
-                  <span class="fa fa-sign-in"></span> Login
-              </a>
-            </span>
-          </div>
-        
-      </nav>
-    
-        <!-- EX6 -->  
-        <header class="jumbotron">
-          <div class="container">
-              <div class="row row-header">
-                  <div class="col-12 col-sm-6">
-                      <h1>Ong Ich Khiem</h1>
-                      <p>Trường Ông Ích Khiêm, còn được gọi là Trường Trung học phổ thông Ông Ích Khiêm (THPT Ông Ích Khiêm), là một trường trung học phổ thông nổi tiếng tại thành phố Đà nẵng, Việt Nam!</p>
-                      <hr class="my-4">
-                      <p> Trường được đặt tên theo danh hiệu "Ông Ích Khiêm" để tưởng nhớ vị nhà giáo nổi tiếng trong lịch sử Việt Nam, Ông Nguyễn Bỉnh Khiêm, người đã đóng góp lớn cho sự phát triển của nền giáo dục và văn hóa Việt Nam.</p>
-                      <p class="lead">
-                        <a class="btn btn-info btn-lg" href="#" role="button">View more</a>
-                      </p>
-                  </div>
-                  <div class="col-12 col-sm align-self-center">
-                    <img src="images/slide1.jpg" class="container-fluid" >
-                  </div>
-    
+
+
+    <!-- EX6 -->  
+    <header class="jumbotron">
+      <div class="container">
+          <div class="row row-header">
+              <div class="col-12 col-sm-6">
+                  <h1>Ông ÍCh Khiêm</h1>
+                  <p>Trường Ông Ích Khiêm, còn được gọi là Trường Trung học phổ thông Ông Ích Khiêm (THPT Ông Ích Khiêm), là một trường trung học phổ thông nổi tiếng tại thành phố Đà nẵng, Việt Nam!</p>
+                  <hr class="my-4">
+                  <p> Trường được đặt tên theo danh hiệu "Ông Ích Khiêm" để tưởng nhớ vị nhà giáo nổi tiếng trong lịch sử Việt Nam, Ông Nguyễn Bỉnh Khiêm, người đã đóng góp lớn cho sự phát triển của nền giáo dục và văn hóa Việt Nam..</p>
+                  <p class="lead">
+                  
+                  </p>
               </div>
+              <div class="col-12 col-sm align-self-center">
+                <img src="images/nen.jpg" class="img-fluid " >
+              </div>
+
           </div>
-      </header>
+      </div>
+  </header>
     <div class="container">
         <div class="row">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">About Us</li>
+                <li class="breadcrumb-item active">Thông Tin Trường</li>
             </ol>
             <div class="col-12">
-               <h3>About Us</h3>
+               <h3>Thông Tin Trường</h3>
                <hr>
             </div>
         </div>
@@ -101,52 +106,52 @@
             <div class="col-12 col-sm-9">
                 <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">School officials</h5>
+                      <h5 class="card-title">Các Cán Bộ Trường</h5>
         
                       <!-- Table with stripped rows -->
                       <table class="table table-striped">
                         <thead>
                           <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Position</th>
-                            <th scope="col">Age</th>
-                            <th scope="col">Start Date</th>
+                            <th scope="col">TT</th>
+                            <th scope="col">Tên</th>
+                            <th scope="col">Chức Vụ</th>
+                            <th scope="col">Tuổi Tác</th>
+                            <th scope="col">Nhiệm Kỳ</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <th scope="row">1</th>
                             <td>Brandon Jacob</td>
-                            <td>Designer</td>
+                            <td>Hiệu Trưởng</td>
                             <td>28</td>
                             <td>2016-05-25</td>
                           </tr>
                           <tr>
                             <th scope="row">2</th>
                             <td>Bridie Kessler</td>
-                            <td>Developer</td>
+                            <td>HIệu Phó</td>
                             <td>35</td>
                             <td>2014-12-05</td>
                           </tr>
                           <tr>
                             <th scope="row">3</th>
                             <td>Ashleigh Langosh</td>
-                            <td>Finance</td>
+                            <td>Kế Toán</td>
                             <td>45</td>
                             <td>2011-08-12</td>
                           </tr>
                           <tr>
                             <th scope="row">4</th>
                             <td>Angus Grady</td>
-                            <td>HR</td>
+                            <td>Bí Thư</td>
                             <td>34</td>
                             <td>2012-06-11</td>
                           </tr>
                           <tr>
                             <th scope="row">5</th>
                             <td>Raheem Lehner</td>
-                            <td>Dynamic Division Officer</td>
+                            <td>Hiệu Phó</td>
                             <td>47</td>
                             <td>2011-04-19</td>
                           </tr>
@@ -167,6 +172,22 @@
                     <img src="./images/card1.jpg" class="card-img-bottom" alt="...">
                   </div>
             </div>
+        </div>
+        <div class="row row-content">
+          <h2 class="text-center" style="color: rgb(39, 149, 112);">Lịch Sử</h2>
+          <div class="card mb-3">
+            <img class="card-img-top h-75 w-100" src="./images/his.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Năm 1968</h5>
+              <p>Trường "Ông Ích Khiêm" có một lịch sử đầy uy tín và hào hùng, khởi nguồn từ những bước đầu của nó vào năm 1968. 
+                Ban đầu, trường chỉ là một cơ sở giáo dục nhỏ với một vài phòng học và một số giáo viên nhiệt tình. 
+                Tuy nhiên, nhờ vào tầm nhìn và nghị lực không ngừng của các sáng lập viên, 
+                trường đã phát triển mạnh mẽ và trở thành một biểu tượng của giáo dục chất lượng.
+              </p>
+            </div>
+          </div>
+
+
         </div>
         <div class="row row-content">
           

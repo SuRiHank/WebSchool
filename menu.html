@@ -17,107 +17,230 @@
 </head>
 
 <body>
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Thông báo</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <h1>Welcome to OIK HighSchool</h1>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Thông báo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1>Chào Mừng Đến Với Trường THPT ÔNG ÍCH KHIÊM</h1>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          <button type="button" class="btn btn-primary">Lưu Thay đổi</button>
         </div>
       </div>
-      <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-      
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" height="50" width="50">OIK HighSchool</a>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" height="40" width="40">OIK HighSchool</a>
+    <div class="container">
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Trang Chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Thông Tin Trường</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span> Các Mục Khác </a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Liên Hệ</a></li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Tìm Kiếm" aria-label="Search">
+              <button class="btn btn-outline-light my-2 my-sm-0 fa fa-search " type="submit"></button> 
+            </form>   
+        </div>   
+        
+    </div>
+    <div class="navbar">
+      <span class="navbar-text">
+        <a type="button" data-toggle="modal" data-target="#loginModal">
+            <span class="fa fa-sign-in"></span> Đăng Nhập
+        </a>
+      </span>
+    </div>
     
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item "><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-                </ul>
-    
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-light my-2 my-sm-0 fa fa-search " type="submit"></button> 
-                </form>   
-            </div>   
-            
+  </nav>
+
+        <div class="border">
+            <div class="col-md-12" >
+                <marquee behavior="scroll" direction="left" style="color: rgb(13, 117, 98);" >
+                    CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI CỔNG THÔNG TIN ĐIỆN TỬ TRƯỜNG THPT ÔNG ÍCH KHIÊM. - ĐC: ĐƯỜNG
+                    QUẢNG XƯƠNG, XÃ HOÀ HOÀ PHONG, HUYỆN HOÀ VANG, TP ĐÀ NẴNG - ĐT: 023314501508
+                </marquee>
+            </div>
         </div>
-        
-        <div class="navbar">
-            <span class="navbar-text">
-              <a type="button" data-toggle="modal" data-target="#loginModal">
-                  <span class="fa fa-sign-in"></span> Login
-              </a>
-            </span>
-          </div>
-        
-      </nav>
-    
-        <!-- EX6 -->  
-        <header class="jumbotron">
-          <div class="container">
-              <div class="row row-header">
-                  <div class="col-12 col-sm-6">
-                      <h1>Ong Ich Khiem</h1>
-                      <p>Trường Ông Ích Khiêm, còn được gọi là Trường Trung học phổ thông Ông Ích Khiêm (THPT Ông Ích Khiêm), là một trường trung học phổ thông nổi tiếng tại thành phố Đà nẵng, Việt Nam!</p>
-                      <hr class="my-4">
-                      <p> Trường được đặt tên theo danh hiệu "Ông Ích Khiêm" để tưởng nhớ vị nhà giáo nổi tiếng trong lịch sử Việt Nam, Ông Nguyễn Bỉnh Khiêm, người đã đóng góp lớn cho sự phát triển của nền giáo dục và văn hóa Việt Nam.</p>
-                      <p class="lead">
-                        <a class="btn btn-info btn-lg" href="#" role="button">View more</a>
-                      </p>
-                  </div>
-                  <div class="col-12 col-sm align-self-center">
-                    <img src="images/slide2.jpg" class="img-fluid " >
-                  </div>
-    
+
+
+    <!-- EX6 -->  
+    <header class="jumbotron">
+      <div class="container">
+          <div class="row row-header">
+              <div class="col-12 col-sm-6">
+                  <h1>Ông ÍCh Khiêm</h1>
+                  <p>Trường Ông Ích Khiêm, còn được gọi là Trường Trung học phổ thông Ông Ích Khiêm (THPT Ông Ích Khiêm), là một trường trung học phổ thông nổi tiếng tại thành phố Đà nẵng, Việt Nam!</p>
+                  <hr class="my-4">
+                  <p> Trường được đặt tên theo danh hiệu "Ông Ích Khiêm" để tưởng nhớ vị nhà giáo nổi tiếng trong lịch sử Việt Nam, Ông Nguyễn Bỉnh Khiêm, người đã đóng góp lớn cho sự phát triển của nền giáo dục và văn hóa Việt Nam..</p>
+                  <p class="lead">
+                    <a class="btn btn-info btn-lg" href="aboutus.html" role="button">Xêm Thêm</a>
+                  </p>
               </div>
+              <div class="col-12 col-sm align-self-center">
+                <img src="images/nen.jpg" class="img-fluid " >
+              </div>
+
           </div>
-      </header>
+      </div>
+  </header>
 
     <div class="container">
         <div class="row">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active">Menu</li>
+                <li class="breadcrumb-item active">Các Mục Khác</li>
             </ol>
             <div class="col-12">
-               <h3>Menu</h3>
+               <h3>Các Mục Khác</h3>
                <hr>
             </div>
         </div>
 
         <div class="row row-content">
+          <h2>Danh Mục</h2>
            <div class="col-12">
               <div class="row">
                 <div class="col-4">
                   <div class="list-group" id="list-tab" role="tablist">
-                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Lịch Học</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Thông Báo Hoạt Động</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Điểm thi đua</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Hướng dẫn Hỗ trợ</a>
+                    <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Sự Kiện Nóng</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Các Câu Lạc Bộ</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Các Cuộc thi</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Các Phong Trào</a>
                   </div>
                 </div>
                 <div class="col-8">
                   <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut. Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor. Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.</div>
-                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut. Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor. Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.</div>
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Lịch Học Tuần Này</h5>
+                          <!-- Table with stripped rows -->
+                          <table class="table table-bordered">
+                            <thead style="color: rgb(231, 164, 83);">
+                              <tr>
+                                <th scope="col">Thứ</th>
+                                <th scope="col">Môn Học</th>
+                                <th scope="col">Giáo Viên</th>
+                                <th scope="col">Phòng</th>
+                                <th scope="col">Ngày</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Brandon Jacob</td>
+                                <td>Designer</td>
+                                <td>28</td>
+                                <td>2016-05-25</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Bridie Kessler</td>
+                                <td>Developer</td>
+                                <td>35</td>
+                                <td>2014-12-05</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Ashleigh Langosh</td>
+                                <td>Finance</td>
+                                <td>45</td>
+                                <td>2011-08-12</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>Angus Grady</td>
+                                <td>HR</td>
+                                <td>34</td>
+                                <td>2012-06-11</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td>Raheem Lehner</td>
+                                <td>Dynamic Division Officer</td>
+                                <td>47</td>
+                                <td>2011-04-19</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- End Table with stripped rows -->
+            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Các Hoạt Động Trong Tuần</h5>
+                          <!-- Table with stripped rows -->
+                          <table class="table table-striped">
+                            <thead style="color: rgb(231, 164, 83);">
+                              <tr>
+                                <th scope="col">Thứ</th>
+                                <th scope="col">Hoạt Động</th>
+                                <th scope="col">Phụ Trách</th>
+                                <th scope="col">Phòng/Sảnh</th>
+                                <th scope="col">Ngày</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Brandon Jacob</td>
+                                <td>Designer</td>
+                                <td>28</td>
+                                <td>2016-05-25</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Bridie Kessler</td>
+                                <td>Developer</td>
+                                <td>35</td>
+                                <td>2014-12-05</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Ashleigh Langosh</td>
+                                <td>Finance</td>
+                                <td>45</td>
+                                <td>2011-08-12</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>Angus Grady</td>
+                                <td>HR</td>
+                                <td>34</td>
+                                <td>2012-06-11</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td>Raheem Lehner</td>
+                                <td>Dynamic Division Officer</td>
+                                <td>47</td>
+                                <td>2011-04-19</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- End Table with stripped rows -->
+            
+                        </div>
+                      </div>
+                    </div>
                     <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut. Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor. Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.</div>
                     <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut. Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor. Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.</div>
                   </div>
